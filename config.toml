@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://sokinpui.github.io/'
 languageCode = 'en-us'
 title = 'So Kin Pui Blog'
 theme = 'ananke'
