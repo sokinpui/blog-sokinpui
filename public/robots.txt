@@ -1,0 +1,3 @@
+# robots.txt file for "So Kin Pui Blog." website, sokinpui.github.io
+User-agent: *
+Disallow: /

@@ -1,0 +1,15 @@
+
+    /* TEAM */
+
+    Author: So Kin Pui
+    Contact: sosokinpui@gmail.com
+    GitHub: @sokinpui
+    From: Hong Kong, China
+
+    /* SITE */
+
+    Last update: 2023/03/26
+    Language: English
+    Doctype: HTML5
+    Standards: HTML5, CSS3, Open Graph protocol, Schema.org
+    Components: Hugo, Ed Theme, Lunr.js

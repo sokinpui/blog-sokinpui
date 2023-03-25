@@ -1,0 +1,24 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Posts - So Kin Pui Blog.",
+  "home_page_url": "https://sokinpui.github.io/blog-sokinpui?utm_source=json_feed",
+  
+  "description": "Ed is a Hugo theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.",
+  "icon": "https://sokinpui.github.io/blog-sokinpui/img/open-graph-logo_hu649006a96c7f6a02c0a48e2d90a9a7b0_5229_96x96_resize_box_3.png",
+  "favicon": "https://sokinpui.github.io/blog-sokinpui/img/open-graph-logo_hu649006a96c7f6a02c0a48e2d90a9a7b0_5229_96x96_resize_box_3.png",
+  "authors": [
+    {
+      "name": "So Kin Pui"
+    }
+  ],
+  "language" : "en-us",
+  "items": [
+    {
+      "id": "9d2e08a1-414d-55ca-f903-007e8a4c7f6c",
+      "url": "https://sokinpui.github.io/blog-sokinpui/posts/my-first-post/?utm_source=json_feed",
+      "title": "My First Post",
+      "summary": "Introduction This is bold text, and this is emphasized text.\nVisit the Hugo website!",
+      "date_published": "2023-03-25T19:45:12+08:00"
+    }
+  ]
+}

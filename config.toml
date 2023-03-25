@@ -1,4 +1,4 @@
-baseURL = 'https://sokinpui.github.io/'
+baseURL = 'https://sokinpui.github.io/blog-sokinpui'
 languageCode = 'en-us'
 title = 'So Kin Pui Blog'
-theme = 'ananke'
+theme = 'etch'

@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest",
+  "id": "0f9a4e0a-155f-5e56-4969-1fb6e0395395",
+  "name": "So Kin Pui Blog.",
+  "short_name": "So Kin Pui Personal Blog",
+  "description": "Ed is a Hugo theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.",
+  "lang": "en-us",
+  "dir": "ltr",
+  "start_url": "/index.html?source=pwa",
+  "display": "fullscreen",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "orientation": "natural",
+  "shortcuts": [  
+    {
+      "name": "Home",
+      "short_name" : "home",
+      "url": "/blog-sokinpui/"
+    } ,
+    {
+      "name": "About",
+      "short_name" : "about",
+      "url": "/blog-sokinpui/about/"
+    } ,
+    {
+      "name": "Credits",
+      "short_name" : "credits",
+      "url": "/blog-sokinpui/credits/"
+    } ,
+    {
+      "name": "Documentation",
+      "short_name" : "documentation",
+      "url": "/blog-sokinpui/documentation/"
+    } ,
+    {
+      "name": "Search",
+      "short_name" : "search",
+      "url": "/blog-sokinpui/search/"
+    } ,
+    {
+      "name": "Contact",
+      "short_name" : "contact",
+      "url": "/blog-sokinpui/contact/"
+    } ,
+    {
+      "name": "GitHub Project",
+      "short_name" : "github",
+      "url": "https://github.com/sergeyklay/gohugo-theme-ed/"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}
+
+

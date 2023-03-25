@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-us" xml:base="https://sokinpui.github.io/blog-sokinpui">
+    <title type="html"><![CDATA[So Kin Pui Blog.]]></title>
+    <subtitle type="html"><![CDATA[Ed is a Hugo theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.]]></subtitle>
+    <link href="/blog-sokinpui/" rel="alternate" type="text/html" title="HTML" />
+    <link href="/blog-sokinpui/feeds/feed.atom.xml" rel="self" type="text/xml" title="Atom" />
+    <link href="/blog-sokinpui/feeds/feed.rss.xml" rel="alternate" type="text/xml" title="Feed" />
+    <link href="/blog-sokinpui/feeds/feed.json" rel="alternate" type="application/feed+json" title="JsonFeed" />
+    <link href="/blog-sokinpui/index.json" rel="alternate" type="application/json" title="JSON" />
+    <link href="/blog-sokinpui/manifest.webmanifest" rel="alternate" type="application/manifest+json" title="Manifest" />
+    <link href="/blog-sokinpui/humans.txt" rel="alternate" type="text/plain" title="humanstxt" />
+    <icon>https://sokinpui.github.io/blog-sokinpui/img/open-graph-logo_hu649006a96c7f6a02c0a48e2d90a9a7b0_5229_96x96_resize_box_3.png</icon>
+    <logo>https://sokinpui.github.io/blog-sokinpui/img/open-graph-logo_hu649006a96c7f6a02c0a48e2d90a9a7b0_5229_96x96_resize_box_3.png</logo>
+    <author>
+        <name type="html"><![CDATA[So Kin Pui]]></name>
+        <email>sosokinpui@gmail.com</email>
+    </author>
+    <rights>Copyright © 2022-2023 So Kin Pui</rights>
+    <generator uri="https://gohugo.io" version="0.111.3">Hugo</generator>
+    <updated>2023-03-26T00:44:08+08:00</updated>
+    <id>urn:uuid:f36f4315-959b-54a5-a9d7-8b3580030d70</id>
+    <entry>
+        
+        <category term="posts" />
+        
+        <link rel="alternate" type="type/html" href="https://sokinpui.github.io/blog-sokinpui/posts/my-first-post/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[My First Post]]></title>
+        
+        
+        
+        <published>2023-03-25T19:45:12+08:00</published>
+        <id>urn:uuid:9d2e08a1-414d-55ca-f903-007e8a4c7f6c</id>
+        
+        <summary type="html"><![CDATA[Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!]]></summary>
+    </entry>
+</feed>
