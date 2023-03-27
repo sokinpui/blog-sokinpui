@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "9ab7bcf7f218321c",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a53cdc528be09c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91a3a1a1237443b8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bbf55db9826ae4ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "1be6e25bcad9b9b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5cd155c6efe73997",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "82d493d8f231d7d0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "05d20c01d5b2d99b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9fe48441b178723f",
+    "type": "split",
+    "children": [
+      {
+        "id": "90d82f90546e908a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9cf243870ad2db9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cc8fc943f706d624",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e81f26b59d07fb32",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d688c15253039eba",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "91a3a1a1237443b8",
+  "lastOpenFiles": [
+    "content/post/post1-layout/index.md~",
+    "content/post/post1-layout/img/layer1.png",
+    "content/post/post1-layout/index.md",
+    "content/post/blog1-layout.md",
+    "content/post/post1-layout/img",
+    "content/post/post1-layout",
+    "content/post/post-layout/index.md",
+    "content/post/post-layout/img",
+    "content/post/post-layout",
+    "content/post-layout/index.md",
+    "content/post-layout/img",
+    "content/post-layout",
+    "content/post/post1-layout.md/index.md",
+    "content/post/post1-layout.md/layout.md",
+    "content/post/post1-layout.md/img",
+    "content/post/post1-layout.md",
+    "content/post/post1/layout.md",
+    "content/post/post1/img",
+    "content/post/post1",
+    "content/post/layout.md",
+    "content/post/p",
+    "static/images/blog1/layer1.png",
+    "static/images/blog1/baselayout.png",
+    "static/blog1/layer1.png",
+    "static/blog1/baselayout.png",
+    "content/usage/index.md",
+    "content/post/ne.md",
+    "themes/personal/archetypes/default.md",
+    "archetypes/default.md",
+    "content/search/index.md"
+  ]
+}

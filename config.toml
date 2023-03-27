@@ -1,4 +1,62 @@
-baseURL = 'https://sokinpui.github.io/blog-sokinpui'
-languageCode = 'en-us'
-title = 'So Kin Pui Blog'
-theme = 'etch'
+baseURL = "https://sokinpui.github.io/blog-sokinpui"
+title = "Home"
+languageCode = "en-US"
+theme = "personal"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+paginate = 5000 #frontpage pagination
+
+[params]
+  description = "Personal blog share idea and skills here."
+  copyright = "Copyright © 2023 So Kin Pui"
+  dark = "auto"
+  highlight = true
+
+  SEOTitle = "So Kin Pui Blog"
+  keyword = "Keyboard Layout, Computer Science, Minimalist, Efficiency, Optimization"
+
+  featured_tags = true
+  featured_condition_size = 2
+
+  [params.social]
+  rss            = true
+  email          = "sosokinpui@gmail.com"
+  github         = "https://github.com/sokinpui"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "usage"
+    name = "usage"
+    title = "usage"
+    url = "/usage/"
+    weight = 20
+
+  #[[menu.main]]
+  #  identifier = "search"
+  #  name = "search"
+  #  title = "search"
+  #  url = "/search/"
+  #  weight = 20
+
+[permalinks]
+  posts = "/:title/"
+
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 5
+    ordered = false
+    startLevel = 2
+
+  [markup.goldmark.renderer]
+    # Allow HTML in Markdown
+    unsafe = true
+
