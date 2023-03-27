@@ -140,6 +140,8 @@
   },
   "active": "91a3a1a1237443b8",
   "lastOpenFiles": [
+    "assets/media/icon.png",
+    "assets/media",
     "config.toml~",
     "themes/etch/theme.toml",
     "themes/etch/layouts/shortcodes/toc.html",
@@ -149,8 +151,6 @@
     "themes/etch/layouts/partials/footer.html",
     "themes/etch/layouts/_default/taxonomy.html",
     "themes/etch/layouts/_default/single.html",
-    "themes/etch/layouts/_default/rss.xml",
-    "themes/etch/layouts/_default/list.html",
     "themes/etch/images/tn_dark.png",
     "themes/etch/images/tn.png",
     "themes/etch/images/screenshot_small.png",
