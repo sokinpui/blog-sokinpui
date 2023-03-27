@@ -121,4 +121,3 @@ to type all the symbols manually, therefor a entire symbols layers on homerow is
 no needed(Previously I have one, use space to active, convert home row into 
 common used symbols.)
 
-

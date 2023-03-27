@@ -24,6 +24,9 @@ paginate = 5000 #frontpage pagination
   email          = "sosokinpui@gmail.com"
   github         = "https://github.com/sokinpui"
 
+[[params.customCSS]]
+ href = "pathToFileUnderStatic"
+
 [menu]
   [[menu.main]]
     identifier = "about"
@@ -59,4 +62,5 @@ paginate = 5000 #frontpage pagination
   [markup.goldmark.renderer]
     # Allow HTML in Markdown
     unsafe = true
+
 
