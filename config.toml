@@ -1,7 +1,7 @@
 baseURL = "https://sokinpui.github.io/blog-sokinpui"
 title = "Home"
 languageCode = "en-US"
-theme = "personal"
+theme = "etch"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
