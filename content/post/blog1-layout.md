@@ -1,11 +1,11 @@
 ---
-title: "Desisgn of Keyboard Layout on standard 78% keyboard"
+title: "Programmer MacBook Keyboard layout"
 #description: A personal defined MacBook Keyboard.
 date: 2023-03-26T19:23:56+08:00
 draft: false
 toc: true
 image: ""
-tags: ["keyboard", "Macbook"]
+tags: ["keyboard"]
 categories: []
 ---
 
@@ -121,6 +121,3 @@ to type all the symbols manually, therefor a entire symbols layers on homerow is
 no needed(Previously I have one, use space to active, convert home row into 
 common used symbols.)
 
-
-![p](1.png 'p')<br>
-![p](/img/1.png 'p')
