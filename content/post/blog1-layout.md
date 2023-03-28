@@ -9,7 +9,7 @@ tags: ["keyboard", "Macbook"]
 categories: []
 ---
 
-## Abstruct
+# Abstruct
 2023 is a start of AI era, with more strong AI tools explore to our life, typing 
 maybe replaced by voice input one day, where natural language programming become 
 true. But until now, typing is still not replacable. From daily usage to 
@@ -17,7 +17,7 @@ programming, the location of the keys may significantly effect the comfortable
 of long time typing. Here is a brief solution that hope to enhance the 
 experience when typing on standard 78% keyboard.
 
-## Reason to redesign.
+# Reason to redesign.
 I use Macbook Air as my main machine, stick to it and cannot use an customizable 
 keyboard like **planck's keyboard** and **hhkb keyboard** for the desire of 
 protable. The plain of using standard 78% keyboard on Macbook is the overusage 
@@ -31,7 +31,7 @@ while they are mainly for one who use a external non-standard keyboards instead
 of standard. So I hope there will be more disscusion about configuration of 
 trivail standard keyboard.
 
-## Choose of base layer, Qwerty
+# Choose of base layer, Qwerty
 Not Colemak, Dvoark and any non-Qwerty. I have tried Colemak and Dvoark, but the 
 musale memory of Qwerty is too strong that make me feel more natural and 
 comfortalbe typing on Qwerty. Moreover, the change of layout may not bring 
@@ -44,7 +44,7 @@ is not that big, there is not need to explain why the time cost is high as it is
 well explained by those Qwetrty touch typer how share their experience of 
 switching to non-Qwerty.
 
-## Analysis before design
+# Analysis before design
 Except the function row, all row is easier to reach even for number rows. I 
 don't touch type numbers rows using pinky fingers. Instead, I use ring fingers 
 which are much longers then pinky fingers. So the keyboard layout don't need to 
@@ -64,19 +64,19 @@ Let counts the key we need:
 reduce them from three or above keys into two keys by define a customizing 
 layer.
 
-## Layers
+# Layers
 There are two types of layers, dead keys and modifers
 
-### Dead keys
+## Dead keys
 The layout of keyboard is chagned permanently untill you press other keys or the 
 inactive keys. One of the exmaple are the comma of 
 [workman-dead](https://github.com/workman-layout/Workman/tree/master/mac).
 
-### modifers
+## modifers
 The layout is changed temporary, the layout return to default after release. One 
 of the example is `shift`.
 
-### My solution
+## My solution
 There are some keys that is underused, like space, tab and return. There are 
 much space that can be leveraged. They should perform tap-mode, which provide 
 two funciton when tap and held them down.
@@ -97,7 +97,7 @@ i: [<br>
 j: }<br>
 k: {<br>
 
-### Macro sequences
+## Macro sequences
 You can define a simple key that perform a sequence of key. It is better put 
 them in a layer to avoid error when typing.<br>
 I have defined some in the caps lock layer.<br>
@@ -105,13 +105,13 @@ d: -><br>
 f: !=<br>
 :: @:<br>
 
-## Implementation
+# Implementation
 You may wonder how to implement those change on Mac, you may use [Karabiner 
 Elements](https://karabiner-elements.pqrs.org/) together with 
 [Goku](https://github.com/yqrashawn/GokuRakuJoudo) to define your own keyboard 
 layout.
 
-## Conculsion
+# Conclusion
 There are lots of method to increase comfortable and efficiency to get the job 
 done, before typing to modify your keyboard, make sure you have tried to use 
 **good tools** like Vim, IDE, auto compeletion, snippets and scritping to 
@@ -121,3 +121,6 @@ to type all the symbols manually, therefor a entire symbols layers on homerow is
 no needed(Previously I have one, use space to active, convert home row into 
 common used symbols.)
 
+
+![p](1.png 'p')<br>
+![p](/img/1.png 'p')

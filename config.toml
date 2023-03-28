@@ -42,6 +42,13 @@ paginate = 5000 #frontpage pagination
     url = "/usage/"
     weight = 20
 
+  [[menu.main]]
+    identifier = "design"
+    name = "design"
+    title = "design"
+    url = "/design/"
+    weight = 30
+
   #[[menu.main]]
   #  identifier = "search"
   #  name = "search"
@@ -57,7 +64,7 @@ paginate = 5000 #frontpage pagination
   [markup.tableOfContents]
     endLevel = 5
     ordered = false
-    startLevel = 2
+    startLevel = 1
 
   [markup.goldmark.renderer]
     # Allow HTML in Markdown
