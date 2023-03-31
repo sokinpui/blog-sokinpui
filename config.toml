@@ -1,4 +1,4 @@
-baseURL = "https://sokinpui.github.io/blog-sokinpui"
+baseURL = "https://sokinpui.github.io/blog-sokinpui/"
 title = "Home"
 languageCode = "en-US"
 theme = "etch"
@@ -69,5 +69,20 @@ paginate = 5000 #frontpage pagination
   [markup.goldmark.renderer]
     # Allow HTML in Markdown
     unsafe = true
+
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'vim'
+    tabWidth = 4
 
 
