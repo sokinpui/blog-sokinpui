@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal blog share idea and skills here.">
+    
+    <link rel="shortcut icon" href="https://sokinpui.github.io/blog-sokinpui/favicon.ico">
+    
+    <link rel="stylesheet" href="/blog-sokinpui/css/style.min.css">
+
+    <link rel="canonical" href="https://sokinpui.github.io/blog-sokinpui/post/blog2-goku/" />
+    <title>Define layer using Karabiner Elements togther with Goku</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://sokinpui.github.io/blog-sokinpui/">Home</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/blog-sokinpui/about/" title="about">about</a>
+            </li><li>
+                <a href="/blog-sokinpui/usage/" title="usage">usage</a>
+            </li><li>
+                <a href="/blog-sokinpui/design/" title="design">design</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Define layer using Karabiner Elements togther with Goku</h1>
+        <div>
+                <time>March 31, 2023</time>
+            </div>
+    </header>
+    <hr>
+    <aside>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#what-is-karabiner-elements">What is Karabiner Elements?</a></li>
+    <li><a href="#what-is-goku">What is Goku?</a></li>
+    <li><a href="#define-your-customized-layer">Define your customized layer</a>
+      <ul>
+        <li><a href="#1-why-define-layer">1. Why define layer</a></li>
+        <li><a href="#2-different-types-of-layers">2. Different types of layers</a>
+          <ul>
+            <li><a href="#traditional-layers">Traditional layers</a></li>
+            <li><a href="#simlayers">Simlayers</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#implement-layers-with-goku">Implement layers with Goku</a>
+      <ul>
+        <li><a href="#1-define-variables">1. define variables.</a></li>
+        <li><a href="#2-mod-tap-layers">2. mod-tap Layers</a></li>
+        <li><a href="#3-dead-keys">3. dead keys</a></li>
+        <li><a href="#double-tap-layer">double tap layer</a></li>
+        <li><a href="#marco">Marco</a></li>
+        <li><a href="#my-karabieredn">My karabier.edn</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </aside><p>If you don&rsquo;t know the basic syntax of Goku, please see the <a href="https://github.com/yqrashawn/GokuRakuJoudo/blob/master/tutorial.md">offical
+tutorial</a>.</p>
+<h1 id="what-is-karabiner-elements">What is Karabiner Elements?</h1>
+<p>Karabiner Elements is a keyboard modifier on MacOS, which support key blindings
+remap and define layer, or in another form, complex modification. <a href="https://karabiner-elements.pqrs.org/">Download
+Karabiner Elements</a>.</p>
+<h1 id="what-is-goku">What is Goku?</h1>
+<p>Goku is a config file that ease the configuration in Karabiner Elements. In
+Karabiner Elements, if you want to implement complex modification, you will need
+to edit the json file, which is wired, it is very likely loss for beginners who
+don&rsquo;t know the sturcture of modification of Karabiner Elements. Also, time is
+limited, why don&rsquo;t use an easier tools that already on top of Karabiner Elements
+to make life easier? <a href="https://github.com/yqrashawn/GokuRakuJoudo">Goku on
+github</a></p>
+<h1 id="define-your-customized-layer">Define your customized layer</h1>
+<h2 id="1-why-define-layer">1. Why define layer</h2>
+<p>The functionality of keyboard can be exteneded, one way is to define your own
+layers. With layers, you can shorten the key blindings in some &ldquo;shortcut&rdquo;
+usually require pressing three to four keys together. Or build an symbols layer
+if you stuck in the current <code>number + shift</code> way.</p>
+<h2 id="2-different-types-of-layers">2. Different types of layers</h2>
+<h3 id="traditional-layers">Traditional layers</h3>
+<p>Traditional layers like the layers of QMK mod-tap feature, a key&rsquo;s function is
+divide into two, when you held down, it is modifier, and you loss its tap&rsquo;s
+function, and vice verse.</p>
+<h3 id="simlayers">Simlayers</h3>
+<p>In Goku, <strong>simlayer</strong>(simultianeous-layer) differ from traditional layers which
+you would not loss key&rsquo;s original fucniton. <strong>For example, if you define <code>f</code> as
+your simlayer, if you held down <code>f</code>, stream of <code>f</code> will be inserted. Conversely,
+if you define <code>f</code> as tranditional layers, no <code>f</code> is insertd even you held it
+down.</strong></p>
+<p>In the
+<a href="https://github.com/yqrashawn/GokuRakuJoudo/blob/master/tutorial.md">tutorial</a>
+of goku, author states the problems of traditional layers. But to me, they are
+the benefits, since simalayer have delayed display and require really fast right
+key followed. So, in this page, I would suggest you to use traditional layers.</p>
+<h1 id="implement-layers-with-goku">Implement layers with Goku</h1>
+<h2 id="1-define-variables">1. define variables.</h2>
+<p>Variable help karabiner element know the state of your keyboard to act in
+performs different events in each states.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="p">[</span><span class="s2">&#34;name of variable&#34;</span> <span class="mi">0</span><span class="o">/</span><span class="mi">1</span><span class="p">]</span>
+</span></span></code></pre></div><p>It is a sturcture of variable, doble quoted name, 0 or 1 state.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="p">[:</span><span class="n">fookey</span>   <span class="p">[</span><span class="s2">&#34;foovar-set&#34;</span> <span class="mi">0</span><span class="o">/</span><span class="mi">1</span><span class="p">]</span>   <span class="p">[</span><span class="s2">&#34;foovar-cd&#34;</span> <span class="mi">0</span><span class="o">/</span><span class="mi">1</span><span class="p">]]</span>
+</span></span></code></pre></div><p>It is conditional event, the last one is the condition, the middle one is <code>to  event</code>, which set <code>foovar-set</code> to 0 or 1 if the condition is met.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="p">[:</span><span class="n">fookey</span>   <span class="p">[[</span><span class="s2">&#34;foovar1&#34;</span> <span class="mi">0</span><span class="o">/</span><span class="mi">1</span><span class="p">]</span> <span class="p">[</span><span class="s2">&#34;foovar2&#34;</span> <span class="mi">0</span><span class="o">/</span><span class="mi">1</span><span class="p">]]</span>     <span class="p">[</span><span class="s2">&#34;foovar&#34;</span> <span class="mi">0</span><span class="o">/</span><span class="mi">1</span><span class="p">]]</span>
+</span></span></code></pre></div><p>It is same strcture of above but with extended <code>to event</code>, which set two
+variable in sequence, the condition part can also be extened in vector <code>[[&quot;foo1&quot;  1] [&quot;foo2&quot; 1]]</code>, vector can expand as much as you want.</p>
+<h2 id="2-mod-tap-layers">2. mod-tap Layers</h2>
+<p>This type of layer active if you held down fookey. inactive if you release.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="p">[:</span><span class="n">w</span> <span class="p">[</span><span class="s2">&#34;tap_fookey&#34;</span> <span class="mi">1</span><span class="p">]</span> <span class="n">nil</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl"> <span class="p">:</span><span class="n">alone</span> <span class="p">[:</span><span class="n">w</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"> <span class="p">:</span><span class="n">afterup</span> <span class="p">[</span><span class="s2">&#34;tap_fookey&#34;</span> <span class="mi">0</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">:</span><span class="n">tap_fookey</span>
+</span></span><span class="line"><span class="cl"><span class="p">[:</span><span class="n">period</span>  <span class="p">:</span><span class="mi">1</span>  <span class="p">]</span>
+</span></span></code></pre></div><p>The first <code>[&quot;tap_fookey&quot; 1]</code> is the key event if you held down, <code>alone</code> is the
+key event if you tap single. <code>:afterup</code> is after key up event. The last line
+<code>:tap_fookey</code> tells karabiner to perform the following events if <code>&quot;tap_fookey&quot;</code>
+is met, In this example, it is <code>w+. -&gt; 1</code> it is like the conditions.</p>
+<h2 id="3-dead-keys">3. dead keys</h2>
+<p>This type of layer active if you press fookeys, inactive if you press the
+fooleavekey.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="p">[:</span><span class="n">fookey</span>            <span class="p">[</span><span class="s2">&#34;dead_foo&#34;</span> <span class="mi">1</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="p">[:</span><span class="n">fooleavekey</span>       <span class="p">[</span><span class="s2">&#34;dead_foo&#34;</span> <span class="mi">0</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="p">:</span><span class="n">dead_foo</span>
+</span></span><span class="line"><span class="cl"><span class="p">[:</span><span class="n">foo_from</span>       <span class="p">[:</span><span class="n">foo_to</span> <span class="p">[</span><span class="s2">&#34;dead_foo&#34;</span> <span class="mi">0</span><span class="p">]]]</span>
+</span></span><span class="line"><span class="cl"><span class="p">[:</span><span class="n">foo_from</span>       <span class="p">:</span><span class="n">foo_to</span> <span class="p">]</span>
+</span></span></code></pre></div><p>Dead key is actually a simple layer checked with variales state, the first event
+in dead_foo will leave layer after press the <code>foo_from</code>, while the second
+won&rsquo;t.<br>
+If you wish to leave the layer with the same keys you can:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="p">[:</span><span class="n">comma</span>  <span class="p">[</span><span class="s2">&#34;taped&#34;</span> <span class="mi">0</span><span class="p">]</span>  <span class="p">[</span><span class="s2">&#34;taped&#34;</span> <span class="mi">1</span> <span class="p">]</span> <span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">[:</span><span class="n">comma</span>  <span class="p">[</span><span class="s2">&#34;taped&#34;</span> <span class="mi">1</span><span class="p">]</span>  <span class="p">[</span><span class="s2">&#34;taped&#34;</span> <span class="mi">0</span> <span class="p">]</span> <span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">:</span><span class="n">taped</span>
+</span></span><span class="line"><span class="cl"><span class="p">[:</span><span class="n">period</span>  <span class="p">:</span><span class="mi">1</span>  <span class="p">]</span>
+</span></span></code></pre></div><h2 id="double-tap-layer">double tap layer</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="p">;;</span> <span class="n">check</span> <span class="n">double</span> <span class="n">tap</span>
+</span></span><span class="line"><span class="cl"><span class="p">[:</span><span class="n">right_shift</span>  <span class="p">[</span><span class="s2">&#34;two&#34;</span> <span class="mi">1</span><span class="p">]</span>  <span class="p">[</span><span class="s2">&#34;one&#34;</span> <span class="mi">1</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">;;</span> <span class="n">chekc</span> <span class="n">single</span> <span class="n">tap</span>
+</span></span><span class="line"><span class="cl"><span class="p">[:</span><span class="n">right_shift</span> <span class="p">:</span><span class="n">right_shift</span> <span class="n">nil</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{:</span><span class="n">alone</span>  <span class="p">[:</span><span class="n">right_shift</span> <span class="p">[</span><span class="s2">&#34;one&#34;</span> <span class="mi">1</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="p">:</span><span class="n">delayed</span> <span class="p">{:</span><span class="n">invoked</span> <span class="p">[</span><span class="s2">&#34;one&#34;</span> <span class="mi">0</span><span class="p">]</span> <span class="p">:</span><span class="n">canceled</span> <span class="p">[</span><span class="s2">&#34;one&#34;</span> <span class="mi">0</span><span class="p">]}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">:</span><span class="n">params</span> <span class="p">{:</span><span class="n">delay</span> <span class="mi">1000</span><span class="p">}}]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">:</span><span class="n">two</span>
+</span></span><span class="line"><span class="cl"><span class="p">[:</span><span class="n">period</span>  <span class="p">:</span><span class="mi">1</span>  <span class="p">]</span>
+</span></span></code></pre></div><p>This layer keep the function of <code>right shift</code>, but I don&rsquo;t know why it fail to
+use <code>right shift</code> to escape.<br>
+The single tap check is a little bit complicate, nil is introduced in mod-tap
+layer which extended the <code>to event</code>, new <code>:delayed</code> control the behaviour after
+the key tapped, <code>:invoked</code> and <code>:canceled</code> work as their name.  <code>:params {:delay  1000}</code> denote the time for the accepted delay time, <code>invoked</code> event trigger
+before that time, <code>canceled</code> event trigger after that time.<br>
+<strong>The double tap check should be put before single tap check.</strong><br>
+To escape the layer use the same key use the follow snippet instead:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">    <span class="p">;;</span> <span class="n">check</span> <span class="n">double</span> <span class="n">tap</span>
+</span></span><span class="line"><span class="cl">    <span class="p">[:</span><span class="n">right_shift</span>  <span class="p">[</span><span class="s2">&#34;two&#34;</span> <span class="mi">1</span><span class="p">]</span>  <span class="p">[</span><span class="s2">&#34;one&#34;</span> <span class="mi">1</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="p">;;</span> <span class="n">chekc</span> <span class="n">single</span> <span class="n">tap</span>
+</span></span><span class="line"><span class="cl">    <span class="p">[:</span><span class="n">right_shift</span> <span class="p">[:</span><span class="n">right_shift</span> <span class="p">[</span><span class="s2">&#34;one&#34;</span> <span class="mi">1</span><span class="p">]]</span> <span class="p">[</span><span class="s2">&#34;two&#34;</span> <span class="mi">0</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{:</span><span class="n">delayed</span> <span class="p">{:</span><span class="n">invoked</span> <span class="p">[</span><span class="s2">&#34;one&#34;</span> <span class="mi">0</span><span class="p">]</span> <span class="p">:</span><span class="n">canceled</span> <span class="p">[</span><span class="s2">&#34;one&#34;</span> <span class="mi">0</span><span class="p">]}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">:</span><span class="n">params</span> <span class="p">{:</span><span class="n">delay</span> <span class="mi">1000</span><span class="p">}}]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="p">:</span><span class="n">two</span>
+</span></span><span class="line"><span class="cl">    <span class="p">[:</span><span class="n">right_shift</span>  <span class="p">[</span><span class="s2">&#34;two&#34;</span> <span class="mi">0</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="p">[:</span><span class="n">period</span>  <span class="p">:</span><span class="mi">1</span>  <span class="p">]</span>
+</span></span></code></pre></div><p>It first check that if right_shift is tap twice and once, and leave if tap twice
+already. But this cannot perserve the function of <code>right shift</code>, so it cannnot
+be act like modifier anymore, to be noted, the last example that perserve <code>right  shift</code> can replace by othey with variables, so as mod-tap layer and double
+tapped layer at the same time.</p>
+<h2 id="marco">Marco</h2>
+<p>This is actually not a layer, but a collection of keys. I have defined a layer
+to shorten repetitive keys sequence into single press.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="p">[:</span><span class="n">i</span>     <span class="p">[:</span><span class="n">i</span> <span class="p">:</span><span class="n">n</span> <span class="p">:</span><span class="n">s</span> <span class="p">:</span><span class="n">e</span> <span class="p">:</span><span class="n">r</span> <span class="p">:</span><span class="n">t</span> <span class="p">:</span><span class="n">spacebar</span> <span class="p">:</span><span class="n">a</span> <span class="p">:</span><span class="n">spacebar</span> <span class="p">:</span><span class="n">j</span> <span class="p">:</span><span class="n">o</span> <span class="p">:</span><span class="n">k</span> <span class="p">:</span><span class="n">e</span><span class="p">]]</span> 
+</span></span></code></pre></div><p>Which will insert <code>insert a joke</code> with space if you press <code>i</code>.</p>
+<h2 id="my-karabieredn">My karabier.edn</h2>
+<p>Here is a
+<a href="https://github.com/sokinpui/config/blob/main/karabiner.edn">reference</a> for your
+own implementation.</p>
+</article>
+
+        </main><footer id="footer">
+    Copyright © 2023 So Kin Pui
+</footer>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+    </body>
+</html>

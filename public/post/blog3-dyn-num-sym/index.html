@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal blog share idea and skills here.">
+    
+    <link rel="shortcut icon" href="https://sokinpui.github.io/blog-sokinpui/favicon.ico">
+    
+    <link rel="stylesheet" href="/blog-sokinpui/css/style.min.css">
+
+    <link rel="canonical" href="https://sokinpui.github.io/blog-sokinpui/post/blog3-dyn-num-sym/" />
+    <title>Dynamic number-symbol row in vim</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://sokinpui.github.io/blog-sokinpui/">Home</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/blog-sokinpui/about/" title="about">about</a>
+            </li><li>
+                <a href="/blog-sokinpui/usage/" title="usage">usage</a>
+            </li><li>
+                <a href="/blog-sokinpui/design/" title="design">design</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Dynamic number-symbol row in vim</h1>
+        <div>
+                <time>April 7, 2023</time>
+            </div>
+    </header>
+    <hr>
+    <aside>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#abstraction">Abstraction</a></li>
+    <li><a href="#how-this-idea-come">How this idea come</a></li>
+    <li><a href="#number-symbols-toggle">Number-symbols toggle</a></li>
+    <li><a href="#dynamic-number-symbols-row-in-vim">Dynamic Number-symbols row in vim</a></li>
+    <li><a href="#inprefect">Inprefect</a></li>
+  </ul>
+</nav>
+    </aside><h1 id="abstraction">Abstraction</h1>
+<p>Provide a way to dynamic swap numbers and symbols in vim according to current
+mode.</p>
+<h1 id="how-this-idea-come">How this idea come</h1>
+<p>When I write code or writing, I often find the symbols should be easily type as
+single key stroke, while in vim normal mode I find I would like to press number
+in single mode instead of pressing with <code>shift</code>. At first, I searched online for
+solution, many of them suggested to swap numbers and symbols, and I agree it may
+convient while coding. However, I am not coding all day, even during coding, in
+vim normal mode something it is handy to use number for <code>[count]</code> and command
+together. So swapping force you to choose one of them for more convenience
+typing. Another solution is to use number pad layer, I would say it is same as
+swapping, since I have to press with another key to use numbers, the problem
+havn&rsquo;t been solved.</p>
+<p>One day, When I was editing code, the idea of toggling nubmer-symbol row come in
+my mind, then I implement it, and find it solve the problem quite well regarding
+not prefect.</p>
+<h1 id="number-symbols-toggle">Number-symbols toggle</h1>
+<p>Well, it is actually a dead key leader, when I press the <code>toggle key</code> which is
+<code>equal sign</code> of my keyboard. The nubmer row will swap to symbol row, press
+again, back to number.</p>
+<h1 id="dynamic-number-symbols-row-in-vim">Dynamic Number-symbols row in vim</h1>
+<p>Since vim is modual, when insert mode, I prefer using symbols over numbers, when
+normal mode, I prefer the opposite. Then I add some rules for the toggle keys.</p>
+<p>Back to normal mode, which is equivalent to press the <code>esc</code> key, so when press
+<code>esc</code> key, define <code>nst</code> to False. It means toggle number rows.</p>
+<pre tabindex="0"><code>[:escape :left_control nil {:alone [ [&#34;nst&#34; 0] [&#34;n-layer&#34; 0] :escape  ]} ]
+</code></pre><p>The above snippets is goku code, a config layer on top of <a href="https://karabiner-elements.pqrs.org/">Download
+Karabiner Elements</a>, which is a tools for
+Mac to remap keyboard layouts.</p>
+<p>Enter insert mode, is equivalent to <code>a</code>, <code>i</code>, <code>s</code>, <code>A</code>, <code>I</code>, <code>S</code>, <code>o</code>, <code>O</code>, <code>c</code>,
+<code>C</code>. Then turn <code>nst</code> to True when type those key.</p>
+<pre tabindex="0"><code>[:i                           [:i  [&#34;nst&#34; 1]]]   
+[:a                           [:a  [&#34;nst&#34; 1]]]   
+[:s                           [:s  [&#34;nst&#34; 1]]]   
+[:c                           [:c  [&#34;nst&#34; 1]]]   
+[:o                           [:o  [&#34;nst&#34; 1]]]   
+</code></pre><p>The above code define <code>nst</code> to True when type <code>i</code> ( not <code>I</code> ).</p>
+<p>Furthur more, there is a few more situation I would prefer symbols over number,
+they are searching and command mode. Then I add those lines also.</p>
+<pre tabindex="0"><code>[:semicolon                   [:semicolon [&#34;nst&#34; 1]]]   
+[:slash                       [:slash [&#34;nst&#34; 1]] ]
+</code></pre><h1 id="inprefect">Inprefect</h1>
+<p>Since the layer is define outside vim, it can not avoid symbols row toggle
+during normal mode, when I type <code>yip</code> in normal mode, the symbol row toggle.
+Although I can have some line like <code>inoremap 1 !</code> and <code>cnoremap 2 @</code>, I don&rsquo;t
+want to pollute my mapping to much, I give up to implement this in pure vim way.
+I am interesting to find how to let karabiner know that I am in vim normal mode,
+so that avoid toggle symbol row accidently.</p>
+<p>I have remap <code>equal sign</code> to the <code>caps lock</code>, so it is possible for me to have
+one dead key, if you want to implement also, you may find your own.</p>
+</article>
+
+        </main><footer id="footer">
+    Copyright © 2023 So Kin Pui
+</footer>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+    </body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal blog share idea and skills here.">
+    
+    <link rel="shortcut icon" href="https://sokinpui.github.io/blog-sokinpui/favicon.ico">
+    
+    <link rel="stylesheet" href="/blog-sokinpui/css/style.min.css">
+
+    <link rel="canonical" href="https://sokinpui.github.io/blog-sokinpui/post/blog1-layout/" />
+    <title>Programmer MacBook Keyboard layout</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://sokinpui.github.io/blog-sokinpui/">Home</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/blog-sokinpui/about/" title="about">about</a>
+            </li><li>
+                <a href="/blog-sokinpui/usage/" title="usage">usage</a>
+            </li><li>
+                <a href="/blog-sokinpui/design/" title="design">design</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Programmer MacBook Keyboard layout</h1>
+        <div>
+                <time>March 26, 2023</time>
+            </div>
+    </header>
+    <hr>
+    <aside>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#abstruct">Abstruct</a></li>
+    <li><a href="#reason-to-redesign">Reason to redesign.</a></li>
+    <li><a href="#choose-of-base-layer-qwerty">Choose of base layer, Qwerty</a></li>
+    <li><a href="#analysis-before-design">Analysis before design</a></li>
+    <li><a href="#layers">Layers</a>
+      <ul>
+        <li><a href="#dead-keys">Dead keys</a></li>
+        <li><a href="#modifers">modifers</a></li>
+        <li><a href="#my-solution">My solution</a></li>
+        <li><a href="#macro-sequences">Macro sequences</a></li>
+      </ul>
+    </li>
+    <li><a href="#implementation">Implementation</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+    </aside><h1 id="abstruct">Abstruct</h1>
+<p>2023 is a start of AI era, with more strong AI tools explore to our life, typing
+maybe replaced by voice input one day, where natural language programming become
+true. But until now, typing is still not replacable. From daily usage to
+programming, the location of the keys may significantly effect the comfortable
+of long time typing. Here is a brief solution that hope to enhance the
+experience when typing on standard 78% keyboard.</p>
+<h1 id="reason-to-redesign">Reason to redesign.</h1>
+<p>I use Macbook Air as my main machine, stick to it and cannot use an customizable
+keyboard like <strong>planck&rsquo;s keyboard</strong> and <strong>hhkb keyboard</strong> for the desire of
+protable. The plain of using standard 78% keyboard on Macbook is the overusage
+of pinky, <code>Backspace</code>, <code>[</code>, <code>]</code>, <code>-</code>, <code>=</code> and <code>Enter</code> are all handled by right
+pinky. As my right pinky is much weaker than left, which make typing long time a
+difficult, inefficient and tired task. I believe it is true for other user who
+programming a lot with Macbook.</p>
+<p>There are so many plans and existing well designed layouts on the Internet,
+while they are mainly for one who use a external non-standard keyboards instead
+of standard. So I hope there will be more disscusion about configuration of
+trivail standard keyboard.</p>
+<h1 id="choose-of-base-layer-qwerty">Choose of base layer, Qwerty</h1>
+<p>Not Colemak, Dvoark and any non-Qwerty. I have tried Colemak and Dvoark, but the
+musale memory of Qwerty is too strong that make me feel more natural and
+comfortalbe typing on Qwerty. Moreover, the change of layout may not bring
+significant advantages and comfor for typing, 10 keys on homerow is never
+enough, whatever layouts, your fingers still need to move along three rows to
+type characters. The analysis of those Qwerty alternative always be to ideal,
+without mention of muscale memory and symbols make such change not really solve
+the plain. Another reason is that the time cost is too high and the improvement
+is not that big, there is not need to explain why the time cost is high as it is
+well explained by those Qwetrty touch typer how share their experience of
+switching to non-Qwerty.</p>
+<h1 id="analysis-before-design">Analysis before design</h1>
+<p>Except the function row, all row is easier to reach even for number rows. I
+don&rsquo;t touch type numbers rows using pinky fingers. Instead, I use ring fingers
+which are much longers then pinky fingers. So the keyboard layout don&rsquo;t need to
+relay on layers heavily like 40% planck&rsquo;s keyboard.</p>
+<p>Let counts the key we need:</p>
+<ol>
+<li>30 characters on the main area of the keyboard including <code>,</code>, <code>.</code>, <code>/</code> and
+<code>;</code>.</li>
+<li>13 keys on numbers</li>
+<li>8 modifier keys, <code>capslock</code>, <code>left right option</code>, <code>left right command</code>, <code>left  shift</code>, <code>control</code>, <code>fn</code> I don&rsquo;t count right shift since I never use it.</li>
+<li>4 special keys, including <code>space</code>, <code>reutrn</code>, <code>tab</code> and <code>delete</code>.</li>
+<li>4 arrow keys, I don&rsquo;t want to use home row arrow keys, since I seldom use
+them, there is no need to prepare a layer for them.</li>
+</ol>
+<p>61 keys is already sweat enough for daily used, for those shortcut, I usually
+reduce them from three or above keys into two keys by define a customizing
+layer.</p>
+<h1 id="layers">Layers</h1>
+<p>There are two types of layers, dead keys and modifers</p>
+<h2 id="dead-keys">Dead keys</h2>
+<p>The layout of keyboard is chagned permanently untill you press other keys or the
+inactive keys. One of the exmaple are the comma of
+<a href="https://github.com/workman-layout/Workman/tree/master/mac">workman-dead</a>.</p>
+<h2 id="modifers">modifers</h2>
+<p>The layout is changed temporary, the layout return to default after release. One
+of the example is <code>shift</code>.</p>
+<h2 id="my-solution">My solution</h2>
+<p>There are some keys that is underused, like space, tab and return. There are
+much space that can be leveraged. They should perform tap-mode, which provide
+two funciton when tap and held them down.</p>
+<ol>
+<li>Remap <code>space</code> to <code>space</code> when tap, <code>shift</code> when held.
+It is much comfortable compare to use pinky finger to press shift.</li>
+<li>Remap <code>left shift</code> to <code>escape</code> when tap, <code>control</code> when held. I use vim.</li>
+<li>swap numbers and symbols for programming.</li>
+<li>remap <code>caps lock</code> to <code>=</code> when tap, switch layer when held.</li>
+<li>swap quote <code>'</code> and double quote <code>'</code>, and locate at the original position of
+open bracket.</li>
+<li>move hyphen and underscore to the original position of quote.</li>
+<li>move backslash and pipe to the original position of hyphen.</li>
+</ol>
+<p><strong>Layers:</strong><br>
+caps lock layers(held down caps lock):<br>
+u: ]<br>
+i: [<br>
+j: }<br>
+k: {<br></p>
+<h2 id="macro-sequences">Macro sequences</h2>
+<p>You can define a simple key that perform a sequence of key. It is better put
+them in a layer to avoid error when typing.<br>
+I have defined some in the caps lock layer.<br>
+d: -&gt;<br>
+f: !=<br>
+:: @:<br></p>
+<h1 id="implementation">Implementation</h1>
+<p>You may wonder how to implement those change on Mac, you may use <a href="https://karabiner-elements.pqrs.org/">Karabiner
+Elements</a> together with
+<a href="https://github.com/yqrashawn/GokuRakuJoudo">Goku</a> to define your own keyboard
+layout.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>There are lots of method to increase comfortable and efficiency to get the job
+done, before typing to modify your keyboard, make sure you have tried to use
+<strong>good tools</strong> like Vim, IDE, auto compeletion, snippets and scritping to
+reduece typing. Single modification of keyboard won&rsquo;t make you a better typer.<br>
+With the help of snippets and auto completion, I now write code with less demand
+to type all the symbols manually, therefor a entire symbols layers on homerow is
+no needed(Previously I have one, use space to active, convert home row into
+common used symbols.)</p>
+<p><img src="/1.png" alt="image">
+<img src="/iii.png" alt="image">
+<img src="/img/iii.png" alt="image">
+<img src="/img/1.png" alt="image"></p>
+</article>
+
+        </main><footer id="footer">
+    Copyright © 2023 So Kin Pui
+</footer>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+    </body>
+</html>

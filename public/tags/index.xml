@@ -1,13 +1,440 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on So Kin Pui</title>
+    <title>Tags on Home</title>
     <link>https://sokinpui.github.io/blog-sokinpui/tags/</link>
-    <description>Recent content in Tags on So Kin Pui</description>
+    <description>Recent content in Tags on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+    <lastBuildDate>Tue, 02 May 2023 21:41:24 +0800</lastBuildDate>
     
 	<atom:link href="https://sokinpui.github.io/blog-sokinpui/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>To the time spent on tweaking linux</title>
+      <link>https://sokinpui.github.io/blog-sokinpui/post/blog5-tweak-tools/</link>
+      <pubDate>Sat, 13 May 2023 17:35:28 +0800</pubDate>
+      
+      <guid>https://sokinpui.github.io/blog-sokinpui/post/blog5-tweak-tools/</guid>
+      <description>&lt;h1 id=&#34;tweaking-tools-never-statisfied-habit&#34;&gt;Tweaking tools, never statisfied habit&lt;/h1&gt;
+&lt;p&gt;Tweaking linux, because I want to try linux, linux is absolutely a toy for me,
+no productivity give, instead time sink into the dark hole of configuring linux.&lt;br&gt;
+At the very initial, efficiently and elegant are the main reasons to have a
+taste on linux. I used to be a keyboard and command line zealot as a vim noob,
+keyboard navigation and shell command is much more efficient than moving my arm
+then clicking my mouse. The power of shell build on the ability to automate and
+script repetitive job to a reusable script. However, after using linux, I have
+found that how silly I am.&lt;/p&gt;
+&lt;p&gt;I regard me as a spirit cleanliness, once I choose a tools, I have to force
+myself with the same tools, including everything suitable or non-suitalbe. Back
+to the first few weeks I know vim, I try to do everything in vim, taking notes,
+writing or coding.&lt;/p&gt;
+&lt;p&gt;In this article, my using experience difference between CLI and GUI will be
+discussed, then the though after tweaking archlinux and vim. Finally, I will
+introduce my choises.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Waste too much time to upgrade productivity</title>
+      <link>https://sokinpui.github.io/blog-sokinpui/post/blog4-choose-of-tools/</link>
+      <pubDate>Tue, 02 May 2023 21:41:24 +0800</pubDate>
+      
+      <guid>https://sokinpui.github.io/blog-sokinpui/post/blog4-choose-of-tools/</guid>
+      <description>&lt;p&gt;There are too much time spend on configure my tools, replace a more efficiently
+tool with the less efficient one. It takes me so long to understand those apps
+doesn&amp;rsquo;t matter if just want to take a notes&lt;/p&gt;
+&lt;h1 id=&#34;time-spending-on-notes-taking-app&#34;&gt;Time spending on notes taking app&lt;/h1&gt;
+&lt;h2 id=&#34;effie&#34;&gt;Effie&lt;/h2&gt;
+&lt;p&gt;When I have to take notes, I fisrt using &lt;a href=&#34;https://www.effie.pro/&#34;&gt;Effie&lt;/a&gt;, but
+then I find it don&amp;rsquo;t have good image insert support, give up. Their idea is
+great, notes or writing apps should be clean enough and later I find every notes
+app say they are clean.&lt;/p&gt;
+&lt;h2 id=&#34;notion&#34;&gt;Notion&lt;/h2&gt;
+&lt;p&gt;The next app is &lt;a href=&#34;https://www.notion.so/desktop&#34;&gt;notion&lt;/a&gt;, it is great, the
+markdown blocks and integration of app make notion eye-cream, but then regarding
+the loading time take decade long, no offline support, and most of my time are
+dragging blocks make my workspace more pretty.  &amp;ldquo;Um&amp;hellip; A good notes should look
+like this.&amp;rdquo;, regarding my terrible sense of beauty, the &amp;ldquo;design&amp;rdquo; never fit my
+imagination of prefect notes. Notion maybe too capable for a note taking app,
+the database function make them customizable, I want writing notes, but not
+build website. Nevertheelss, Notion now becoming my todo list, and event
+recorder, how great it support syncing across all devices, and can be access
+with browser.&lt;/p&gt;
+&lt;h2 id=&#34;onenote-collanote-goodnotes-remarkable&#34;&gt;OneNote, CollaNote, Goodnotes, Remarkable&lt;/h2&gt;
+&lt;p&gt;All of them used to be kept my handwriting notes, among them, OneNotes is canva,
+CollaNote is vertical scrolling canva, Goodnotes is a good handwriting notes app
+but neet to pay. Remarkable is an accidient, I never understand why I think it
+can take a notes with high writing delay and slow responding time. All of them
+have been used on 2018 Ipad with 20.7 grams Apple Pencil (1st Generation).  This
+gen pencil is too heavy, compare to Samsung 8 grams S Pen, it is like holding a
+sticker stamp on glass. I remember I have spend so much time finding free
+alternative on Ipad since good software and hardware are expensive, and finally
+stay with second hand Samsung tab S7.&lt;/p&gt;
+&lt;h2 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h2&gt;
+&lt;p&gt;Before trying Obsidian, I have finally realize that note is simple as markdown,
+no need of those notion blocks or Effie cards. basiclly supporting tree
+directories selection and image insertion is a must. Obsidian do quite well, and
+finally I realize how much time is wasted on making my own notion note space. No
+database and todo list is needed, and therefore Obsidian is enough to write and
+manager notes.&lt;/p&gt;
+&lt;p&gt;When tinkering a customizalbe tools, I always try to make the tools part of
+mine, try to complish all the tasks with the lovest tools. When there exist a
+better tools, still I have to use my lovely tools try to accomplish the task, if
+not, then google way to implement it. Most of the time tinkering the tools,
+losting the initial goal, turn into making my tools super powerful and
+multi-funcional. Therefore, never love your tools, getting the job done in
+efficient way is much more elegant than done the jobs with the specify tools, if
+the initial goal is getting the task done.&lt;/p&gt;
+&lt;h1 id=&#34;editor&#34;&gt;Editor&lt;/h1&gt;
+&lt;p&gt;Editor is another time sink source. Vim is the first editor I know it is a
+editor, I have use vscode before but I don&amp;rsquo;t know it is a editor, back to the
+day using vscode, I am scaring of those UI, I don&amp;rsquo;t know what will happen if I
+turn on/off some of thems. Vim is clean, simple and elegant. However, it is like
+a mindset trap, the more I know Vim, the stronger will to do all in vim way. Vim
+bring me to shell, shell bring me to plain text operation. A mindset form,
+command line and plain text are efficient, GUI and mouse are evil. At that time,
+I have read many article of how to navigate laptop with only keyboard and vim
+like motion. Most of the time spend on google &amp;ldquo;how to do XXX in vim&amp;rdquo; and &amp;ldquo;how to
+do XXX in cli&amp;rdquo;. Still worse, I have imaged many situation that never happen,
+prepare a function or shortcut to overcome the problem never happen in future.&lt;/p&gt;
+&lt;p&gt;Any customizalbe editor can be time sink to configure, they becoming toies
+insteat of tools, I am adding too much unnecessary function before applied in
+real context. All those function and shortcut should only solved and implment in
+fly or they are repetitive to give a handy marco. When some special case rise, I
+am aware if it can be handle in &amp;ldquo;simpler&amp;rdquo; way, the real is they seldom occur in
+the future. However, time is wasted already.&lt;/p&gt;
+&lt;h1 id=&#34;problems-of-upgrading-productivity-through-changing-tools&#34;&gt;Problems of upgrading productivity through changing tools.&lt;/h1&gt;
+&lt;p&gt;Replacing the current tools with a more productivity one is often handy and
+attactive, imaging better functionalility of newer tools and get the job more
+efficient and elegant. However most of the time is spent on move data and
+rebuild working flow. When I merge my notes from Effie to notion, it take me one
+day to do so, it is repeative and boring to copy all the structure of the notes.&lt;br&gt;
+My current strategy are of merging notes are don&amp;rsquo;t touch the notes unless
+necessary, most of my old notes are still keeping on notion instead merging them
+into obsidian, although it may feel statisfy too see a deep direcotry of notes
+on Obsidian side bar. It just too time consumming, no real benefit to merge all
+the notes into single place, whatever the notes still appear in both apps, it is
+really not difference to merge from one to one and separate them.&lt;/p&gt;
+&lt;h2 id=&#34;changing-tools&#34;&gt;Changing tools&lt;/h2&gt;
+&lt;p&gt;I always want to try new tools, like emacs, vscode, Obsidian open source
+alternative, Mac built-in preview.app &amp;ldquo;better alternative&amp;rdquo;. Try them like
+playing new toy, fun but no real gain. I try them under the name of learning,
+and end up with tinkering configure.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Dynamic number-symbol row in vim</title>
+      <link>https://sokinpui.github.io/blog-sokinpui/post/blog3-dyn-num-sym/</link>
+      <pubDate>Fri, 07 Apr 2023 17:43:58 +0800</pubDate>
+      
+      <guid>https://sokinpui.github.io/blog-sokinpui/post/blog3-dyn-num-sym/</guid>
+      <description>&lt;h1 id=&#34;abstraction&#34;&gt;Abstraction&lt;/h1&gt;
+&lt;p&gt;Provide a way to dynamic swap numbers and symbols in vim according to current
+mode.&lt;/p&gt;
+&lt;h1 id=&#34;how-this-idea-come&#34;&gt;How this idea come&lt;/h1&gt;
+&lt;p&gt;When I write code or writing, I often find the symbols should be easily type as
+single key stroke, while in vim normal mode I find I would like to press number
+in single mode instead of pressing with &lt;code&gt;shift&lt;/code&gt;. At first, I searched online for
+solution, many of them suggested to swap numbers and symbols, and I agree it may
+convient while coding. However, I am not coding all day, even during coding, in
+vim normal mode something it is handy to use number for &lt;code&gt;[count]&lt;/code&gt; and command
+together. So swapping force you to choose one of them for more convenience
+typing. Another solution is to use number pad layer, I would say it is same as
+swapping, since I have to press with another key to use numbers, the problem
+havn&amp;rsquo;t been solved.&lt;/p&gt;
+&lt;p&gt;One day, When I was editing code, the idea of toggling nubmer-symbol row come in
+my mind, then I implement it, and find it solve the problem quite well regarding
+not prefect.&lt;/p&gt;
+&lt;h1 id=&#34;number-symbols-toggle&#34;&gt;Number-symbols toggle&lt;/h1&gt;
+&lt;p&gt;Well, it is actually a dead key leader, when I press the &lt;code&gt;toggle key&lt;/code&gt; which is
+&lt;code&gt;equal sign&lt;/code&gt; of my keyboard. The nubmer row will swap to symbol row, press
+again, back to number.&lt;/p&gt;
+&lt;h1 id=&#34;dynamic-number-symbols-row-in-vim&#34;&gt;Dynamic Number-symbols row in vim&lt;/h1&gt;
+&lt;p&gt;Since vim is modual, when insert mode, I prefer using symbols over numbers, when
+normal mode, I prefer the opposite. Then I add some rules for the toggle keys.&lt;/p&gt;
+&lt;p&gt;Back to normal mode, which is equivalent to press the &lt;code&gt;esc&lt;/code&gt; key, so when press
+&lt;code&gt;esc&lt;/code&gt; key, define &lt;code&gt;nst&lt;/code&gt; to False. It means toggle number rows.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[:escape :left_control nil {:alone [ [&amp;#34;nst&amp;#34; 0] [&amp;#34;n-layer&amp;#34; 0] :escape  ]} ]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The above snippets is goku code, a config layer on top of &lt;a href=&#34;https://karabiner-elements.pqrs.org/&#34;&gt;Download
+Karabiner Elements&lt;/a&gt;, which is a tools for
+Mac to remap keyboard layouts.&lt;/p&gt;
+&lt;p&gt;Enter insert mode, is equivalent to &lt;code&gt;a&lt;/code&gt;, &lt;code&gt;i&lt;/code&gt;, &lt;code&gt;s&lt;/code&gt;, &lt;code&gt;A&lt;/code&gt;, &lt;code&gt;I&lt;/code&gt;, &lt;code&gt;S&lt;/code&gt;, &lt;code&gt;o&lt;/code&gt;, &lt;code&gt;O&lt;/code&gt;, &lt;code&gt;c&lt;/code&gt;,
+&lt;code&gt;C&lt;/code&gt;. Then turn &lt;code&gt;nst&lt;/code&gt; to True when type those key.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[:i                           [:i  [&amp;#34;nst&amp;#34; 1]]]   
+[:a                           [:a  [&amp;#34;nst&amp;#34; 1]]]   
+[:s                           [:s  [&amp;#34;nst&amp;#34; 1]]]   
+[:c                           [:c  [&amp;#34;nst&amp;#34; 1]]]   
+[:o                           [:o  [&amp;#34;nst&amp;#34; 1]]]   
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The above code define &lt;code&gt;nst&lt;/code&gt; to True when type &lt;code&gt;i&lt;/code&gt; ( not &lt;code&gt;I&lt;/code&gt; ).&lt;/p&gt;
+&lt;p&gt;Furthur more, there is a few more situation I would prefer symbols over number,
+they are searching and command mode. Then I add those lines also.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[:semicolon                   [:semicolon [&amp;#34;nst&amp;#34; 1]]]   
+[:slash                       [:slash [&amp;#34;nst&amp;#34; 1]] ]
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;inprefect&#34;&gt;Inprefect&lt;/h1&gt;
+&lt;p&gt;Since the layer is define outside vim, it can not avoid symbols row toggle
+during normal mode, when I type &lt;code&gt;yip&lt;/code&gt; in normal mode, the symbol row toggle.
+Although I can have some line like &lt;code&gt;inoremap 1 !&lt;/code&gt; and &lt;code&gt;cnoremap 2 @&lt;/code&gt;, I don&amp;rsquo;t
+want to pollute my mapping to much, I give up to implement this in pure vim way.
+I am interesting to find how to let karabiner know that I am in vim normal mode,
+so that avoid toggle symbol row accidently.&lt;/p&gt;
+&lt;p&gt;I have remap &lt;code&gt;equal sign&lt;/code&gt; to the &lt;code&gt;caps lock&lt;/code&gt;, so it is possible for me to have
+one dead key, if you want to implement also, you may find your own.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Define layer using Karabiner Elements togther with Goku</title>
+      <link>https://sokinpui.github.io/blog-sokinpui/post/blog2-goku/</link>
+      <pubDate>Fri, 31 Mar 2023 17:27:25 +0800</pubDate>
+      
+      <guid>https://sokinpui.github.io/blog-sokinpui/post/blog2-goku/</guid>
+      <description>&lt;p&gt;If you don&amp;rsquo;t know the basic syntax of Goku, please see the &lt;a href=&#34;https://github.com/yqrashawn/GokuRakuJoudo/blob/master/tutorial.md&#34;&gt;offical
+tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;what-is-karabiner-elements&#34;&gt;What is Karabiner Elements?&lt;/h1&gt;
+&lt;p&gt;Karabiner Elements is a keyboard modifier on MacOS, which support key blindings
+remap and define layer, or in another form, complex modification. &lt;a href=&#34;https://karabiner-elements.pqrs.org/&#34;&gt;Download
+Karabiner Elements&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;what-is-goku&#34;&gt;What is Goku?&lt;/h1&gt;
+&lt;p&gt;Goku is a config file that ease the configuration in Karabiner Elements. In
+Karabiner Elements, if you want to implement complex modification, you will need
+to edit the json file, which is wired, it is very likely loss for beginners who
+don&amp;rsquo;t know the sturcture of modification of Karabiner Elements. Also, time is
+limited, why don&amp;rsquo;t use an easier tools that already on top of Karabiner Elements
+to make life easier? &lt;a href=&#34;https://github.com/yqrashawn/GokuRakuJoudo&#34;&gt;Goku on
+github&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;define-your-customized-layer&#34;&gt;Define your customized layer&lt;/h1&gt;
+&lt;h2 id=&#34;1-why-define-layer&#34;&gt;1. Why define layer&lt;/h2&gt;
+&lt;p&gt;The functionality of keyboard can be exteneded, one way is to define your own
+layers. With layers, you can shorten the key blindings in some &amp;ldquo;shortcut&amp;rdquo;
+usually require pressing three to four keys together. Or build an symbols layer
+if you stuck in the current &lt;code&gt;number + shift&lt;/code&gt; way.&lt;/p&gt;
+&lt;h2 id=&#34;2-different-types-of-layers&#34;&gt;2. Different types of layers&lt;/h2&gt;
+&lt;h3 id=&#34;traditional-layers&#34;&gt;Traditional layers&lt;/h3&gt;
+&lt;p&gt;Traditional layers like the layers of QMK mod-tap feature, a key&amp;rsquo;s function is
+divide into two, when you held down, it is modifier, and you loss its tap&amp;rsquo;s
+function, and vice verse.&lt;/p&gt;
+&lt;h3 id=&#34;simlayers&#34;&gt;Simlayers&lt;/h3&gt;
+&lt;p&gt;In Goku, &lt;strong&gt;simlayer&lt;/strong&gt;(simultianeous-layer) differ from traditional layers which
+you would not loss key&amp;rsquo;s original fucniton. &lt;strong&gt;For example, if you define &lt;code&gt;f&lt;/code&gt; as
+your simlayer, if you held down &lt;code&gt;f&lt;/code&gt;, stream of &lt;code&gt;f&lt;/code&gt; will be inserted. Conversely,
+if you define &lt;code&gt;f&lt;/code&gt; as tranditional layers, no &lt;code&gt;f&lt;/code&gt; is insertd even you held it
+down.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In the
+&lt;a href=&#34;https://github.com/yqrashawn/GokuRakuJoudo/blob/master/tutorial.md&#34;&gt;tutorial&lt;/a&gt;
+of goku, author states the problems of traditional layers. But to me, they are
+the benefits, since simalayer have delayed display and require really fast right
+key followed. So, in this page, I would suggest you to use traditional layers.&lt;/p&gt;
+&lt;h1 id=&#34;implement-layers-with-goku&#34;&gt;Implement layers with Goku&lt;/h1&gt;
+&lt;h2 id=&#34;1-define-variables&#34;&gt;1. define variables.&lt;/h2&gt;
+&lt;p&gt;Variable help karabiner element know the state of your keyboard to act in
+performs different events in each states.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;name of variable&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It is a sturcture of variable, doble quoted name, 0 or 1 state.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fookey&lt;/span&gt;   &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;foovar-set&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;   &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;foovar-cd&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It is conditional event, the last one is the condition, the middle one is &lt;code&gt;to  event&lt;/code&gt;, which set &lt;code&gt;foovar-set&lt;/code&gt; to 0 or 1 if the condition is met.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fookey&lt;/span&gt;   &lt;span class=&#34;p&#34;&gt;[[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;foovar1&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;foovar2&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;     &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;foovar&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It is same strcture of above but with extended &lt;code&gt;to event&lt;/code&gt;, which set two
+variable in sequence, the condition part can also be extened in vector &lt;code&gt;[[&amp;quot;foo1&amp;quot;  1] [&amp;quot;foo2&amp;quot; 1]]&lt;/code&gt;, vector can expand as much as you want.&lt;/p&gt;
+&lt;h2 id=&#34;2-mod-tap-layers&#34;&gt;2. mod-tap Layers&lt;/h2&gt;
+&lt;p&gt;This type of layer active if you held down fookey. inactive if you release.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;w&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;tap_fookey&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nil&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;alone&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;w&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;afterup&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;tap_fookey&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tap_fookey&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;period&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The first &lt;code&gt;[&amp;quot;tap_fookey&amp;quot; 1]&lt;/code&gt; is the key event if you held down, &lt;code&gt;alone&lt;/code&gt; is the
+key event if you tap single. &lt;code&gt;:afterup&lt;/code&gt; is after key up event. The last line
+&lt;code&gt;:tap_fookey&lt;/code&gt; tells karabiner to perform the following events if &lt;code&gt;&amp;quot;tap_fookey&amp;quot;&lt;/code&gt;
+is met, In this example, it is &lt;code&gt;w+. -&amp;gt; 1&lt;/code&gt; it is like the conditions.&lt;/p&gt;
+&lt;h2 id=&#34;3-dead-keys&#34;&gt;3. dead keys&lt;/h2&gt;
+&lt;p&gt;This type of layer active if you press fookeys, inactive if you press the
+fooleavekey.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fookey&lt;/span&gt;            &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;dead_foo&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fooleavekey&lt;/span&gt;       &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;dead_foo&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;dead_foo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;foo_from&lt;/span&gt;       &lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;foo_to&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;dead_foo&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;foo_from&lt;/span&gt;       &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;foo_to&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Dead key is actually a simple layer checked with variales state, the first event
+in dead_foo will leave layer after press the &lt;code&gt;foo_from&lt;/code&gt;, while the second
+won&amp;rsquo;t.&lt;br&gt;
+If you wish to leave the layer with the same keys you can:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;comma&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;taped&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;taped&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;comma&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;taped&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;taped&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;taped&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;period&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;double-tap-layer&#34;&gt;double tap layer&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;check&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;double&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tap&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;right_shift&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;two&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;one&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;chekc&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;single&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tap&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;right_shift&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;right_shift&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;nil&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;{:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;alone&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;right_shift&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;one&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;delayed&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;invoked&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;one&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;canceled&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;one&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;params&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;delay&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}}]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;two&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;period&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This layer keep the function of &lt;code&gt;right shift&lt;/code&gt;, but I don&amp;rsquo;t know why it fail to
+use &lt;code&gt;right shift&lt;/code&gt; to escape.&lt;br&gt;
+The single tap check is a little bit complicate, nil is introduced in mod-tap
+layer which extended the &lt;code&gt;to event&lt;/code&gt;, new &lt;code&gt;:delayed&lt;/code&gt; control the behaviour after
+the key tapped, &lt;code&gt;:invoked&lt;/code&gt; and &lt;code&gt;:canceled&lt;/code&gt; work as their name.  &lt;code&gt;:params {:delay  1000}&lt;/code&gt; denote the time for the accepted delay time, &lt;code&gt;invoked&lt;/code&gt; event trigger
+before that time, &lt;code&gt;canceled&lt;/code&gt; event trigger after that time.&lt;br&gt;
+&lt;strong&gt;The double tap check should be put before single tap check.&lt;/strong&gt;&lt;br&gt;
+To escape the layer use the same key use the follow snippet instead:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;check&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;double&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tap&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;right_shift&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;two&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;one&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;;;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;chekc&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;single&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tap&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;right_shift&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;right_shift&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;one&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;two&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;{:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;delayed&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;invoked&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;one&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;canceled&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;one&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;params&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;delay&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}}]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;two&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;right_shift&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;two&amp;#34;&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;period&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;  &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It first check that if right_shift is tap twice and once, and leave if tap twice
+already. But this cannot perserve the function of &lt;code&gt;right shift&lt;/code&gt;, so it cannnot
+be act like modifier anymore, to be noted, the last example that perserve &lt;code&gt;right  shift&lt;/code&gt; can replace by othey with variables, so as mod-tap layer and double
+tapped layer at the same time.&lt;/p&gt;
+&lt;h2 id=&#34;marco&#34;&gt;Marco&lt;/h2&gt;
+&lt;p&gt;This is actually not a layer, but a collection of keys. I have defined a layer
+to shorten repetitive keys sequence into single press.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;     &lt;span class=&#34;p&#34;&gt;[:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;e&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;r&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;t&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;spacebar&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;spacebar&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;j&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;o&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;k&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;e&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]]&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Which will insert &lt;code&gt;insert a joke&lt;/code&gt; with space if you press &lt;code&gt;i&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;my-karabieredn&#34;&gt;My karabier.edn&lt;/h2&gt;
+&lt;p&gt;Here is a
+&lt;a href=&#34;https://github.com/sokinpui/config/blob/main/karabiner.edn&#34;&gt;reference&lt;/a&gt; for your
+own implementation.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Programmer MacBook Keyboard layout</title>
+      <link>https://sokinpui.github.io/blog-sokinpui/post/blog1-layout/</link>
+      <pubDate>Sun, 26 Mar 2023 19:23:56 +0800</pubDate>
+      
+      <guid>https://sokinpui.github.io/blog-sokinpui/post/blog1-layout/</guid>
+      <description>&lt;h1 id=&#34;abstruct&#34;&gt;Abstruct&lt;/h1&gt;
+&lt;p&gt;2023 is a start of AI era, with more strong AI tools explore to our life, typing
+maybe replaced by voice input one day, where natural language programming become
+true. But until now, typing is still not replacable. From daily usage to
+programming, the location of the keys may significantly effect the comfortable
+of long time typing. Here is a brief solution that hope to enhance the
+experience when typing on standard 78% keyboard.&lt;/p&gt;
+&lt;h1 id=&#34;reason-to-redesign&#34;&gt;Reason to redesign.&lt;/h1&gt;
+&lt;p&gt;I use Macbook Air as my main machine, stick to it and cannot use an customizable
+keyboard like &lt;strong&gt;planck&amp;rsquo;s keyboard&lt;/strong&gt; and &lt;strong&gt;hhkb keyboard&lt;/strong&gt; for the desire of
+protable. The plain of using standard 78% keyboard on Macbook is the overusage
+of pinky, &lt;code&gt;Backspace&lt;/code&gt;, &lt;code&gt;[&lt;/code&gt;, &lt;code&gt;]&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;=&lt;/code&gt; and &lt;code&gt;Enter&lt;/code&gt; are all handled by right
+pinky. As my right pinky is much weaker than left, which make typing long time a
+difficult, inefficient and tired task. I believe it is true for other user who
+programming a lot with Macbook.&lt;/p&gt;
+&lt;p&gt;There are so many plans and existing well designed layouts on the Internet,
+while they are mainly for one who use a external non-standard keyboards instead
+of standard. So I hope there will be more disscusion about configuration of
+trivail standard keyboard.&lt;/p&gt;
+&lt;h1 id=&#34;choose-of-base-layer-qwerty&#34;&gt;Choose of base layer, Qwerty&lt;/h1&gt;
+&lt;p&gt;Not Colemak, Dvoark and any non-Qwerty. I have tried Colemak and Dvoark, but the
+musale memory of Qwerty is too strong that make me feel more natural and
+comfortalbe typing on Qwerty. Moreover, the change of layout may not bring
+significant advantages and comfor for typing, 10 keys on homerow is never
+enough, whatever layouts, your fingers still need to move along three rows to
+type characters. The analysis of those Qwerty alternative always be to ideal,
+without mention of muscale memory and symbols make such change not really solve
+the plain. Another reason is that the time cost is too high and the improvement
+is not that big, there is not need to explain why the time cost is high as it is
+well explained by those Qwetrty touch typer how share their experience of
+switching to non-Qwerty.&lt;/p&gt;
+&lt;h1 id=&#34;analysis-before-design&#34;&gt;Analysis before design&lt;/h1&gt;
+&lt;p&gt;Except the function row, all row is easier to reach even for number rows. I
+don&amp;rsquo;t touch type numbers rows using pinky fingers. Instead, I use ring fingers
+which are much longers then pinky fingers. So the keyboard layout don&amp;rsquo;t need to
+relay on layers heavily like 40% planck&amp;rsquo;s keyboard.&lt;/p&gt;
+&lt;p&gt;Let counts the key we need:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;30 characters on the main area of the keyboard including &lt;code&gt;,&lt;/code&gt;, &lt;code&gt;.&lt;/code&gt;, &lt;code&gt;/&lt;/code&gt; and
+&lt;code&gt;;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;13 keys on numbers&lt;/li&gt;
+&lt;li&gt;8 modifier keys, &lt;code&gt;capslock&lt;/code&gt;, &lt;code&gt;left right option&lt;/code&gt;, &lt;code&gt;left right command&lt;/code&gt;, &lt;code&gt;left  shift&lt;/code&gt;, &lt;code&gt;control&lt;/code&gt;, &lt;code&gt;fn&lt;/code&gt; I don&amp;rsquo;t count right shift since I never use it.&lt;/li&gt;
+&lt;li&gt;4 special keys, including &lt;code&gt;space&lt;/code&gt;, &lt;code&gt;reutrn&lt;/code&gt;, &lt;code&gt;tab&lt;/code&gt; and &lt;code&gt;delete&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;4 arrow keys, I don&amp;rsquo;t want to use home row arrow keys, since I seldom use
+them, there is no need to prepare a layer for them.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;61 keys is already sweat enough for daily used, for those shortcut, I usually
+reduce them from three or above keys into two keys by define a customizing
+layer.&lt;/p&gt;
+&lt;h1 id=&#34;layers&#34;&gt;Layers&lt;/h1&gt;
+&lt;p&gt;There are two types of layers, dead keys and modifers&lt;/p&gt;
+&lt;h2 id=&#34;dead-keys&#34;&gt;Dead keys&lt;/h2&gt;
+&lt;p&gt;The layout of keyboard is chagned permanently untill you press other keys or the
+inactive keys. One of the exmaple are the comma of
+&lt;a href=&#34;https://github.com/workman-layout/Workman/tree/master/mac&#34;&gt;workman-dead&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;modifers&#34;&gt;modifers&lt;/h2&gt;
+&lt;p&gt;The layout is changed temporary, the layout return to default after release. One
+of the example is &lt;code&gt;shift&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;my-solution&#34;&gt;My solution&lt;/h2&gt;
+&lt;p&gt;There are some keys that is underused, like space, tab and return. There are
+much space that can be leveraged. They should perform tap-mode, which provide
+two funciton when tap and held them down.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Remap &lt;code&gt;space&lt;/code&gt; to &lt;code&gt;space&lt;/code&gt; when tap, &lt;code&gt;shift&lt;/code&gt; when held.
+It is much comfortable compare to use pinky finger to press shift.&lt;/li&gt;
+&lt;li&gt;Remap &lt;code&gt;left shift&lt;/code&gt; to &lt;code&gt;escape&lt;/code&gt; when tap, &lt;code&gt;control&lt;/code&gt; when held. I use vim.&lt;/li&gt;
+&lt;li&gt;swap numbers and symbols for programming.&lt;/li&gt;
+&lt;li&gt;remap &lt;code&gt;caps lock&lt;/code&gt; to &lt;code&gt;=&lt;/code&gt; when tap, switch layer when held.&lt;/li&gt;
+&lt;li&gt;swap quote &lt;code&gt;&#39;&lt;/code&gt; and double quote &lt;code&gt;&#39;&lt;/code&gt;, and locate at the original position of
+open bracket.&lt;/li&gt;
+&lt;li&gt;move hyphen and underscore to the original position of quote.&lt;/li&gt;
+&lt;li&gt;move backslash and pipe to the original position of hyphen.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Layers:&lt;/strong&gt;&lt;br&gt;
+caps lock layers(held down caps lock):&lt;br&gt;
+u: ]&lt;br&gt;
+i: [&lt;br&gt;
+j: }&lt;br&gt;
+k: {&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&#34;macro-sequences&#34;&gt;Macro sequences&lt;/h2&gt;
+&lt;p&gt;You can define a simple key that perform a sequence of key. It is better put
+them in a layer to avoid error when typing.&lt;br&gt;
+I have defined some in the caps lock layer.&lt;br&gt;
+d: -&amp;gt;&lt;br&gt;
+f: !=&lt;br&gt;
+:: @:&lt;br&gt;&lt;/p&gt;
+&lt;h1 id=&#34;implementation&#34;&gt;Implementation&lt;/h1&gt;
+&lt;p&gt;You may wonder how to implement those change on Mac, you may use &lt;a href=&#34;https://karabiner-elements.pqrs.org/&#34;&gt;Karabiner
+Elements&lt;/a&gt; together with
+&lt;a href=&#34;https://github.com/yqrashawn/GokuRakuJoudo&#34;&gt;Goku&lt;/a&gt; to define your own keyboard
+layout.&lt;/p&gt;
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;There are lots of method to increase comfortable and efficiency to get the job
+done, before typing to modify your keyboard, make sure you have tried to use
+&lt;strong&gt;good tools&lt;/strong&gt; like Vim, IDE, auto compeletion, snippets and scritping to
+reduece typing. Single modification of keyboard won&amp;rsquo;t make you a better typer.&lt;br&gt;
+With the help of snippets and auto completion, I now write code with less demand
+to type all the symbols manually, therefor a entire symbols layers on homerow is
+no needed(Previously I have one, use space to active, convert home row into
+common used symbols.)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://sokinpui.github.io/blog-sokinpui/1.png&#34; alt=&#34;image&#34;&gt;
+&lt;img src=&#34;https://sokinpui.github.io/blog-sokinpui/iii.png&#34; alt=&#34;image&#34;&gt;
+&lt;img src=&#34;https://sokinpui.github.io/blog-sokinpui/img/iii.png&#34; alt=&#34;image&#34;&gt;
+&lt;img src=&#34;https://sokinpui.github.io/blog-sokinpui/img/1.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    
     
     
   </channel>

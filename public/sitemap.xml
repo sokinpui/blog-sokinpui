@@ -2,12 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sokinpui.github.io/blog-sokinpui/categories/</loc>
-  </url><url>
-    <loc>https://sokinpui.github.io/blog-sokinpui/search/</loc>
-  </url><url>
     <loc>https://sokinpui.github.io/blog-sokinpui/</loc>
+    <lastmod>2023-05-13T17:35:28+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/post/</loc>
+    <lastmod>2023-05-13T17:35:28+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/post/blog5-tweak-tools/</loc>
+    <lastmod>2023-05-13T17:35:28+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/tags/editor/</loc>
+    <lastmod>2023-05-02T21:41:24+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/tags/notes-app/</loc>
+    <lastmod>2023-05-02T21:41:24+08:00</lastmod>
   </url><url>
     <loc>https://sokinpui.github.io/blog-sokinpui/tags/</loc>
+    <lastmod>2023-05-02T21:41:24+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/tags/tools/</loc>
+    <lastmod>2023-05-02T21:41:24+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/post/blog4-choose-of-tools/</loc>
+    <lastmod>2023-05-02T21:41:24+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/tags/78-keyboard/</loc>
+    <lastmod>2023-04-07T17:43:58+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/post/blog3-dyn-num-sym/</loc>
+    <lastmod>2023-04-07T17:43:58+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/tags/keyboard/</loc>
+    <lastmod>2023-04-07T17:43:58+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/tags/keyboard-layout/</loc>
+    <lastmod>2023-04-07T17:43:58+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/tags/vim/</loc>
+    <lastmod>2023-04-07T17:43:58+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/post/blog2-goku/</loc>
+    <lastmod>2023-03-31T17:27:25+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/tags/goku/</loc>
+    <lastmod>2023-03-31T17:27:25+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/tags/karabiner-elements/</loc>
+    <lastmod>2023-03-31T17:27:25+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/post/blog1-layout/</loc>
+    <lastmod>2023-03-26T19:23:56+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/about/</loc>
+    <lastmod>2023-03-26T13:38:30+08:00</lastmod>
+  </url><url>
+    <loc>https://sokinpui.github.io/blog-sokinpui/categories/</loc>
   </url>
 </urlset>
