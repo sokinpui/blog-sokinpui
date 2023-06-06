@@ -35,20 +35,6 @@ paginate = 5000 #frontpage pagination
     url = "/about/"
     weight = 10
 
-  [[menu.main]]
-    identifier = "usage"
-    name = "usage"
-    title = "usage"
-    url = "/usage/"
-    weight = 20
-
-  [[menu.main]]
-    identifier = "design"
-    name = "design"
-    title = "design"
-    url = "/design/"
-    weight = 30
-
   #[[menu.main]]
   #  identifier = "search"
   #  name = "search"
