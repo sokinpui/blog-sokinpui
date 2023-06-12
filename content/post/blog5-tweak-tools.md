@@ -9,7 +9,7 @@ tags: []
 categories: []
 ---
 
-# Tweaking tools, never statisfied habit
+# Tweaking tools, never satisfied habit
 Tweaking linux, because I want to try linux, linux is absolutely a toy for me, 
 no productivity give, instead time sink into the dark hole of configuring linux.  
 At the very initial, efficiently and elegant are the main reasons to have a 
