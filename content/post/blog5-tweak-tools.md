@@ -2,7 +2,7 @@
 title: "To the time spent on tweaking linux"
 #description: <descriptive text here>
 date: 2023-05-13T17:35:28+08:00
-draft: false
+draft: true
 toc: true
 image: ""
 tags: []
